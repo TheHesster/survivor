@@ -21,4 +21,4 @@ var navbar =
     '</nav>'
 
 var nav_insert = document.getElementById('nav');
-nav_insert.insertAdjacentHTML('beforeend', nav);
+nav_insert.insertAdjacentHTML('beforeend', navbar);
