@@ -1,5 +1,4 @@
-{/* <script> */}
-var nav = 
+var navbar = 
 '<nav class="navbar navbar-expand-md navbar-dark bg-dark">'+
         '<div class="container-fluid">'+
         '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">'+
@@ -21,6 +20,5 @@ var nav =
         '</div>'+
     '</nav>'
 
-var demo = document.getElementById('nav'); // target element.
-demo.insertAdjacentHTML('beforeend', nav); // add content.
-// </script>
+var nav_insert = document.getElementById('nav');
+nav_insert.insertAdjacentHTML('beforeend', nav);
