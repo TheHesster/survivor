@@ -1,5 +1,5 @@
 var navbar = 
-'<nav class="navbar navbar-expand-md navbar-dark bg-dark">'+
+'<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">'+
         '<div class="container-fluid">'+
         '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">'+
 		    '<span class="navbar-toggler-icon"></span>'+
@@ -24,7 +24,7 @@ var nav_insert = document.getElementById('nav');
 nav_insert.insertAdjacentHTML('beforeend', navbar);
 
 var footer = 
-'<div class="container-fluid text-left text-light bg-dark bg-gradient">'+
+'<div class="container-fluid text-left text-light fixed-bottom bg-dark bg-gradient">'+
 '<div class="row">'+
   '<div class="col py-1">'+
     '<h5>Adam Hess 2023</h5>'+
