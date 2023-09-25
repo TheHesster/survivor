@@ -13,6 +13,7 @@ var navbar =
                     '<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-theme="dark" aria-expanded="false">Seasons</a>'+
                     '<ul class="dropdown-menu" data-bs-theme="dark">'+
                     '<li><a class="dropdown-item" href="season44.html">Season 44</a></li>'+
+                    '<li><a class="dropdown-item" href="season45.html">Season 45</a></li>'+
                     '</ul>'+
                 '</li>'+
             '</ul>'+
