@@ -15,7 +15,7 @@ var navbar =
                     '<li><a class="dropdown-item" href="season44.html">Season 44</a></li>'+
                     '<li><a class="dropdown-item" href="season45.html">Season 45</a></li>'+
                     '<li><a class="dropdown-item" href="season46.html">Season 46</a></li>'+
-                    '<li><a class="dropdown-item" href="season47.html">Season 46</a></li>'+
+                    '<li><a class="dropdown-item" href="season47.html">Season 47</a></li>'+
                     '</ul>'+
                 '</li>'+
             '</ul>'+
