@@ -31,7 +31,7 @@ var footer =
 '<div class="container-fluid text-left text-light bg-dark bg-gradient">'+
 '<div class="row">'+
   '<div class="col py-1">'+
-    '<h5>Adam Hess 2024</h5>'+
+    '<h5>Adam Hess 2025</h5>'+
   '</div>'+
 '</div>'+
 '</div>'
