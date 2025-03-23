@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<main>
+{{ partial "season_image.html"
+ . }}
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10">
+        <h4 class="bg-dark opacity-75 text-light fw-bold p-4 rounded-top border border-danger border-4">Table will be updated with eliminations on Sundays</h4>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col"></div>
+      <div class="col-10">
+        <div class="player-table">
+          <table class="table table-dark opacity-75 table-bordered align-middle">
+            <thead>
+                <tr>
+                  <th scope="col">Player</th>
+                  <th scope="col">Contenstant 1</th>
+                  <th scope="col">Contenstant 2</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              {{ range .Params.players }}
+              <tr>
+                <th scope="row">{{ .player_name }}</td>
+                  <!-- do the below class when voted out
+                  this will change the cell's background
+                  to RED and strike through the name
+                  <td class="bg-danger"><del>Name</del></td> -->
+                  {{ range .contestants }}
+                  {{ if .eliminated }}  
+                  <td class="bg-danger"><del>{{ .contestant }}</del></td>
+                  {{ else if .winner}}
+                  <td class="bg-success">{{ .contestant }}</td>
+                  {{ else }}
+                  <td>{{ .contestant }}</td>
+                  {{ end }}
+                  {{ end }}
+                </tr>
+                {{ end }}
+
+            </tbody>
+            <tfoot class="table-group-divider">
+              <tr>
+                <td colspan="3">Randomized at <a href="https://random.org/lists" target="_blank">random.org/lists</a></td>
+              </tr>
+            </tfoot>
+          </table> 
+        </div>
+      </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+{{ if .Params.randomized_list_image }}
+{{ partial "randomized_image.html" . }}
+{{ end }}
+
+</main>
+{{ end }}
