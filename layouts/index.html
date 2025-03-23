@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<main>
+<div class="container-fluid text-center py-5">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-6">
+        <div class="logo">
+            <img src="/static/images/SurvivorLogo.png" alt="Survivor Logo" class="img-fluid"></img>
+        </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8 bg-dark m-1 p-4 rounded shadow-lg opacity-75">
+      <div class="decription text-light">
+        <h2 class="fs-1 fw-bold">Welcome to our AMAZE-TASTIC Survivor Pool!</h2>
+        {{ range first 1 .Site.RegularPages.ByDate.Reverse }}
+        <a href="{{ .RelPermalink }}" type="button" class="btn btn-outline-light" role="button">Click here for most recent season</a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8 bg-dark m-1 p-4 rounded shadow-lg opacity-75">
+      <div class="decription text-light">
+        <h2 class="fs-1 fw-bold">Rules</h2>
+        <h4 class="fs-2">$10 per contestant assigned</h4><br>
+        <h4 class="fs-2">Winner takes all</h4><br>
+        <h4 class="fs-2">If an unassigned contestant ends up winning, we will roll the pot over to next season!</h4><br>
+        <h4 class="fs-2">Table updated on Sundays with eliminations</h4>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+</main>
+
+{{ end }}

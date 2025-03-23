@@ -1,9 +1,7 @@
 body {
-  background: url('static/images/SurvivorBackground.jpg') no-repeat center center fixed;
+  background: url('/static/images/IslandBackground.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-
-
