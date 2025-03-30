@@ -46,7 +46,7 @@ params:
         - contestant: Thomas Krottinger
           eliminated: true
         - contestant: Bianca Roses
-          eliminated: false
+          eliminated: true
 
     - player_name: Iona
       contestants:
