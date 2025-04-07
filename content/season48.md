@@ -25,7 +25,7 @@ params:
         - contestant: Kamilla Karthigesu
           eliminated: false
         - contestant: Charity Nelms
-          eliminated: false
+          eliminated: true
 
     - player_name: Cynthia
       contestants:
