@@ -9,14 +9,14 @@ params:
     - player_name: Adam
       contestants:
         - contestant: Chrissy Sarnowsky
-          eliminated: false
+          eliminated: true
         - contestant: Kyle Fraser
           eliminated: false
 
     - player_name: Branden
       contestants:
         - contestant: Sai Hughley
-          eliminated: false
+          eliminated: true
         - contestant: Mitch Guerra
           eliminated: false
 
@@ -60,7 +60,7 @@ params:
         - contestant: Eva Erickson
           eliminated: false
         - contestant: Cedrek McFadden
-          eliminated: false
+          eliminated: true
 
     - player_name: Randy
       contestants:
