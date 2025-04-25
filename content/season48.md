@@ -53,7 +53,7 @@ params:
         - contestant: Shauhin Davari
           eliminated: false
         - contestant: David Kinne
-          eliminated: false
+          eliminated: true
 
     - player_name: Kaylyn
       contestants:
