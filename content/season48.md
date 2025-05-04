@@ -37,7 +37,7 @@ params:
     - player_name: Dawson
       contestants:
         - contestant: Star Toomey
-          eliminated: false
+          eliminated: true
         - contestant: Kevin Leung
           eliminated: true
 
