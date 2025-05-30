@@ -12,25 +12,26 @@ params:
           eliminated: true
         - contestant: Kyle Fraser
           eliminated: false
+          winner: true
 
     - player_name: Branden
       contestants:
         - contestant: Sai Hughley
           eliminated: true
         - contestant: Mitch Guerra
-          eliminated: false
+          eliminated: true
 
     - player_name: Brittany
       contestants:
         - contestant: Kamilla Karthigesu
-          eliminated: false
+          eliminated: true
         - contestant: Charity Nelms
           eliminated: true
 
     - player_name: Cynthia
       contestants:
         - contestant: Joe Hunter
-          eliminated: false
+          eliminated: true
         - contestant: Justin Pioppi
           eliminated: true
 
@@ -51,14 +52,14 @@ params:
     - player_name: Iona
       contestants:
         - contestant: Shauhin Davari
-          eliminated: false
+          eliminated: true
         - contestant: David Kinne
           eliminated: true
 
     - player_name: Kaylyn
       contestants:
         - contestant: Eva Erickson
-          eliminated: false
+          eliminated: true
         - contestant: Cedrek McFadden
           eliminated: true
 
@@ -67,5 +68,5 @@ params:
         - contestant: Stephanie Berger
           eliminated: true
         - contestant: Mary Zheng
-          eliminated: false
+          eliminated: true
 ---
