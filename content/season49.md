@@ -11,7 +11,7 @@ params:
         - contestant: Shannon Fairweather
           eliminated: false
         - contestant: Kimberly “Annie” Davis
-          eliminated: false
+          eliminated: true
 
     - player_name: Cynthia
       contestants:
@@ -60,7 +60,7 @@ params:
         - contestant: Rizo Velovic
           eliminated: false
         - contestant: Nicole Mazullo
-          eliminated: false
+          eliminated: true
 
     - player_name: Shannon
       contestants:
