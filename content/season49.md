@@ -9,49 +9,49 @@ params:
     - player_name: Adam
       contestants:
         - contestant: Shannon Fairweather
-          eliminated: false
+          eliminated: true
         - contestant: Kimberly “Annie” Davis
           eliminated: true
 
     - player_name: Cynthia
       contestants:
         - contestant: Alex Moore
-          eliminated: false
+          eliminated: true
         - contestant: Sophie Segreti
           eliminated: false
 
     - player_name: Dawson
       contestants:
         - contestant: Jeremiah Ing
-          eliminated: false
+          eliminated: true
         - contestant: Jake Latimer
-          eliminated: false
+          eliminated: true
 
     - player_name: Dylene
       contestants:
         - contestant: Jawan Pitts
-          eliminated: false
+          eliminated: true
         - contestant: Savannah Louie
           eliminated: false
 
     - player_name: Iona
       contestants:
         - contestant: Nate Moore
-          eliminated: false
+          eliminated: true
         - contestant: Jason Treul
-          eliminated: false
+          eliminated: true
 
     - player_name: Kaylyn
       contestants:
         - contestant: Matt Williams
-          eliminated: false
+          eliminated: true
         - contestant: Sophi Balerdi
           eliminated: false
 
     - player_name: Lance
       contestants:
         - contestant: Michelle “MC” Chukwujekwu
-          eliminated: false
+          eliminated: true
         - contestant: Steven Ramm
           eliminated: false
 
