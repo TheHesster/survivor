@@ -18,7 +18,7 @@ params:
         - contestant: Alex Moore
           eliminated: true
         - contestant: Sophie Segreti
-          eliminated: false
+          eliminated: true
 
     - player_name: Dawson
       contestants:
