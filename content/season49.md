@@ -53,7 +53,7 @@ params:
         - contestant: Michelle “MC” Chukwujekwu
           eliminated: true
         - contestant: Steven Ramm
-          eliminated: false
+          eliminated: true
 
     - player_name: Randy
       contestants:
