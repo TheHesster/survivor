@@ -33,6 +33,7 @@ params:
           eliminated: true
         - contestant: Savannah Louie
           eliminated: false
+          winner: true
 
     - player_name: Iona
       contestants:
@@ -46,7 +47,7 @@ params:
         - contestant: Matt Williams
           eliminated: true
         - contestant: Sophi Balerdi
-          eliminated: false
+          eliminated: true
 
     - player_name: Lance
       contestants:
@@ -58,14 +59,14 @@ params:
     - player_name: Randy
       contestants:
         - contestant: Rizo Velovic
-          eliminated: false
+          eliminated: true
         - contestant: Nicole Mazullo
           eliminated: true
 
     - player_name: Shannon
       contestants:
         - contestant: Kristina Mills
-          eliminated: false
+          eliminated: true
         - contestant: Sage Ahrens-Nichols
-          eliminated: false
+          eliminated: true
 ---
