@@ -20,7 +20,11 @@
           <table class="table table-dark opacity-75 table-bordered align-middle">
             <thead>
                 <tr>
+                  {{ if .Params.manual_picks }}
+                  <th scope="col">Player (pick #s)</th>
+                  {{ else }}
                   <th scope="col">Player</th>
+                  {{ end }}
                   <th scope="col">Contenstant 1</th>
                   <th scope="col">Contenstant 2</th>
                 </tr>

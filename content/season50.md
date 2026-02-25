@@ -4,6 +4,7 @@ date: '2026-02-24'
 params:
   season_image: /static/images/Season50/Survivor50.webp
   randomized_list_image: /static/images/Season50/Season50RandomList.png
+  manual_picks: true
   
   players:
     - player_name: Adam (4,15)
