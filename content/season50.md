@@ -9,64 +9,71 @@ params:
   players:
     - player_name: Adam (4,15)
       contestants:
-        - contestant: TBD
+        - contestant: Kamilla Karthigesu
           eliminated: false
-        - contestant: TBD
+        - contestant: Rizo Velovic
           eliminated: false
 
     - player_name: Cynthia (1,18)
       contestants:
-        - contestant: TBD
+        - contestant: Aubry Bracco
           eliminated: false
-        - contestant: TBD
+        - contestant: Joe Hunter
           eliminated: false
 
     - player_name: Dawson (7,12)
       contestants:
-        - contestant: TBD
+        - contestant: Dee Valladares
           eliminated: false
-        - contestant: TBD
+        - contestant: Rick Devens
           eliminated: false
 
     - player_name: Dylene (6,13)
       contestants:
-        - contestant: TBD
+        - contestant: Genevieve Mushaluk
           eliminated: false
-        - contestant: TBD
+        - contestant: Jonathan Young
           eliminated: false
 
     - player_name: Iona (2,17)
       contestants:
-        - contestant: TBD
+        - contestant: Christian Hubicki
           eliminated: false
-        - contestant: TBD
+        - contestant: Chrissy Hofbeck
           eliminated: false
 
     - player_name: Kaylyn (8,11)
       contestants:
-        - contestant: TBD
+        - contestant: Emily Flippen
           eliminated: false
-        - contestant: TBD
+        - contestant: Colby Donaldson
           eliminated: false
 
     - player_name: Lance (3,16)
       contestants:
-        - contestant: TBD
+        - contestant: Charlie Davis
           eliminated: false
-        - contestant: TBD
+        - contestant: Cirie Fields
           eliminated: false
 
     - player_name: Randy (5,14)
       contestants:
-        - contestant: TBD
+        - contestant: Benjamin "Coach" Wade
           eliminated: false
-        - contestant: TBD
+        - contestant: Tiffany Ervin
           eliminated: false
 
     - player_name: Shannon (9,10)
       contestants:
-        - contestant: TBD
+        - contestant: Mike White
           eliminated: false
-        - contestant: TBD
+        - contestant: Ozzy Lusth
+          eliminated: false
+
+    - player_name: Not picked
+      contestants:
+        - contestant: Angelina Keeley
+          eliminated: false
+        - contestant: Stephenie LaGrossa Kendrick
           eliminated: false
 ---
