@@ -10,7 +10,7 @@ params:
     - player_name: Adam (4,15)
       contestants:
         - contestant: Kamilla Karthigesu
-          eliminated: false
+          eliminated: true
         - contestant: Rizo Velovic
           eliminated: false
 
@@ -31,7 +31,7 @@ params:
     - player_name: Dylene (6,13)
       contestants:
         - contestant: Genevieve Mushaluk
-          eliminated: false
+          eliminated: true
         - contestant: Jonathan Young
           eliminated: false
 
@@ -47,12 +47,12 @@ params:
         - contestant: Emily Flippen
           eliminated: false
         - contestant: Colby Donaldson
-          eliminated: false
+          eliminated: true
 
     - player_name: Lance (3,16)
       contestants:
         - contestant: Charlie Davis
-          eliminated: false
+          eliminated: true
         - contestant: Cirie Fields
           eliminated: false
 
@@ -66,14 +66,14 @@ params:
     - player_name: Shannon (9,10)
       contestants:
         - contestant: Mike White
-          eliminated: false
+          eliminated: true
         - contestant: Ozzy Lusth
           eliminated: false
 
     - player_name: Not picked
       contestants:
         - contestant: Angelina Keeley
-          eliminated: false
+          eliminated: true
         - contestant: Stephenie LaGrossa Kendrick
           eliminated: false
 ---
