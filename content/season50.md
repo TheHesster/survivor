@@ -24,7 +24,7 @@ params:
     - player_name: Dawson (7,12)
       contestants:
         - contestant: Dee Valladares
-          eliminated: false
+          eliminated: true
         - contestant: Rick Devens
           eliminated: false
 
@@ -40,7 +40,7 @@ params:
         - contestant: Christian Hubicki
           eliminated: false
         - contestant: Chrissy Hofbeck
-          eliminated: false
+          eliminated: true
 
     - player_name: Kaylyn (8,11)
       contestants:
@@ -59,7 +59,7 @@ params:
     - player_name: Randy (5,14)
       contestants:
         - contestant: Benjamin "Coach" Wade
-          eliminated: false
+          eliminated: true
         - contestant: Tiffany Ervin
           eliminated: false
 
