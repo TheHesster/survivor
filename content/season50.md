@@ -38,7 +38,7 @@ params:
     - player_name: Iona (2,17)
       contestants:
         - contestant: Christian Hubicki
-          eliminated: false
+          eliminated: true
         - contestant: Chrissy Hofbeck
           eliminated: true
 
