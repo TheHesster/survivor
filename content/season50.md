@@ -45,7 +45,7 @@ params:
     - player_name: Kaylyn (8,11)
       contestants:
         - contestant: Emily Flippen
-          eliminated: false
+          eliminated: true
         - contestant: Colby Donaldson
           eliminated: true
 
@@ -68,12 +68,12 @@ params:
         - contestant: Mike White
           eliminated: true
         - contestant: Ozzy Lusth
-          eliminated: false
+          eliminated: true
 
     - player_name: Not picked
       contestants:
         - contestant: Angelina Keeley
           eliminated: true
         - contestant: Stephenie LaGrossa Kendrick
-          eliminated: false
+          eliminated: true
 ---
