@@ -26,7 +26,7 @@ params:
         - contestant: Dee Valladares
           eliminated: true
         - contestant: Rick Devens
-          eliminated: false
+          eliminated: true
 
     - player_name: Dylene (6,13)
       contestants:
@@ -54,7 +54,7 @@ params:
         - contestant: Charlie Davis
           eliminated: true
         - contestant: Cirie Fields
-          eliminated: false
+          eliminated: true
 
     - player_name: Randy (5,14)
       contestants:
