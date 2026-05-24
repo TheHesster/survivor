@@ -12,14 +12,15 @@ params:
         - contestant: Kamilla Karthigesu
           eliminated: true
         - contestant: Rizo Velovic
-          eliminated: false
+          eliminated: true
 
     - player_name: Cynthia (1,18)
       contestants:
         - contestant: Aubry Bracco
           eliminated: false
+          winner: true
         - contestant: Joe Hunter
-          eliminated: false
+          eliminated: true
 
     - player_name: Dawson (7,12)
       contestants:
@@ -33,7 +34,7 @@ params:
         - contestant: Genevieve Mushaluk
           eliminated: true
         - contestant: Jonathan Young
-          eliminated: false
+          eliminated: true
 
     - player_name: Iona (2,17)
       contestants:
@@ -61,7 +62,7 @@ params:
         - contestant: Benjamin "Coach" Wade
           eliminated: true
         - contestant: Tiffany Ervin
-          eliminated: false
+          eliminated: true
 
     - player_name: Shannon (9,10)
       contestants:
