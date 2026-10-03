@@ -9,64 +9,64 @@ params:
   players:
     - player_name: Adam (7,12)
       contestants:
-        - contestant: TBD
+        - contestant: Jenna Doore
           eliminated: false
-        - contestant: TBD
+        - contestant: Alexis Levine
           eliminated: false
 
     - player_name: Cynthia (4,15)
       contestants:
-        - contestant: TBD
+        - contestant: Sharonda Cox
           eliminated: false
-        - contestant: TBD
+        - contestant: Rob Antonson
           eliminated: false
 
     - player_name: Dawson (1,18)
       contestants:
-        - contestant: TBD
+        - contestant: Lewis Kelly
           eliminated: false
-        - contestant: TBD
+        - contestant: Eric "Aric" Macksoud
           eliminated: false
 
     - player_name: Dylene (2,17)
       contestants:
-        - contestant: TBD
+        - contestant: Mike Pinsky
           eliminated: false
-        - contestant: TBD
+        - contestant: Devin Way
           eliminated: false
 
     - player_name: Iona (3,16)
       contestants:
-        - contestant: TBD
+        - contestant: Brady Booker
           eliminated: false
-        - contestant: TBD
+        - contestant: An "Thien An" Nguyen
           eliminated: false
 
     - player_name: Kaylyn (8,11)
       contestants:
-        - contestant: TBD
+        - contestant: Linnea Capobianco
           eliminated: false
-        - contestant: TBD
+        - contestant: Danny "Kilby" Kilby
           eliminated: false
 
     - player_name: Lance (5,14)
       contestants:
-        - contestant: TBD
+        - contestant: Pat Cannaday
           eliminated: false
-        - contestant: TBD
+        - contestant: Cristian Chavez
           eliminated: false
 
     - player_name: Randy (6,13)
       contestants:
-        - contestant: TBD
+        - contestant: Carter Krull
           eliminated: false
-        - contestant: TBD
+        - contestant: Ori Jean-Charles
           eliminated: false
 
     - player_name: Shannon (9,10)
       contestants:
-        - contestant: TBD
+        - contestant: Angelica "Jelly" Loblack
           eliminated: false
-        - contestant: TBD
+        - contestant: Maggie Nestor
           eliminated: false
 ---
