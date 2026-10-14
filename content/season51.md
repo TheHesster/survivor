@@ -19,7 +19,7 @@ params:
         - contestant: Sharonda Cox
           eliminated: false
         - contestant: Rob Antonson
-          eliminated: false
+          eliminated: true
 
     - player_name: Dawson (1,18)
       contestants:
@@ -52,7 +52,7 @@ params:
     - player_name: Lance (5,14)
       contestants:
         - contestant: Pat Cannaday
-          eliminated: false
+          eliminated: true
         - contestant: Cristian Chavez
           eliminated: false
 
