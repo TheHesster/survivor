@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -12,9 +12,10 @@
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-theme="dark" aria-expanded="false">Seasons</a>
                     <ul class="dropdown-menu" data-bs-theme="dark">
 
-                    {{ range .Site.RegularPages.ByDate.Reverse }}
+                    {{ range first 5 (where site.RegularPages "Section" "seasons").ByDate.Reverse }}
                     <li><a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                     {{ end }}
+                    <li><a class="dropdown-item" href="/archive/">Older Seasons</a></h2>
 
                     </ul>
                 </li>

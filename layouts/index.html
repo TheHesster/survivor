@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<main>
+<main class="pt-5">
 <div class="container-fluid text-center py-5">
   <div class="row">
     <div class="col"></div>
@@ -18,7 +18,7 @@
     <div class="col-8 bg-dark m-1 p-4 rounded shadow-lg opacity-75">
       <div class="decription text-light">
         <h2 class="fs-1 fw-bold">Welcome to our AMAZE-TASTIC Survivor Pool!</h2>
-        {{ range first 1 .Site.RegularPages.ByDate.Reverse }}
+        {{ range first 1 (where site.RegularPages "Section" "seasons").ByDate.Reverse }}
         <a href="{{ .RelPermalink }}" type="button" class="btn btn-outline-light" role="button">Click here for most recent season</a>
         {{ end }}
       </div>

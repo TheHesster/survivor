@@ -1,5 +1,5 @@
 ---
-title: Season 44
+title: 'Season 44'
 date: '2023-02-01'
 params:
   season_image: /static/images/Season44/Survivor44.webp
