@@ -10,9 +10,9 @@ params:
     - player_name: Adam (7,12)
       contestants:
         - contestant: Jenna Doore
-          eliminated: false
+          eliminated: true
         - contestant: Alexis Levine
-          eliminated: false
+          eliminated: true
 
     - player_name: Cynthia (4,15)
       contestants:
@@ -45,7 +45,7 @@ params:
     - player_name: Kaylyn (8,11)
       contestants:
         - contestant: Linnea Capobianco
-          eliminated: false
+          eliminated: true
         - contestant: Danny "Kilby" Kilby
           eliminated: false
 
