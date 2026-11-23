@@ -24,7 +24,7 @@ params:
     - player_name: Dawson (1,18)
       contestants:
         - contestant: Lewis Kelly
-          eliminated: false
+          eliminated: true
         - contestant: Eric "Aric" Macksoud
           eliminated: false
 
@@ -38,7 +38,7 @@ params:
     - player_name: Iona (3,16)
       contestants:
         - contestant: Brady Booker
-          eliminated: false
+          eliminated: true
         - contestant: An "Thien An" Nguyen
           eliminated: false
 
@@ -47,7 +47,7 @@ params:
         - contestant: Linnea Capobianco
           eliminated: true
         - contestant: Danny "Kilby" Kilby
-          eliminated: false
+          eliminated: true
 
     - player_name: Lance (5,14)
       contestants:
@@ -61,7 +61,7 @@ params:
         - contestant: Carter Krull
           eliminated: false
         - contestant: Ori Jean-Charles
-          eliminated: false
+          eliminated: true
 
     - player_name: Shannon (9,10)
       contestants:
