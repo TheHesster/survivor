@@ -59,7 +59,7 @@ params:
     - player_name: Randy (6,13)
       contestants:
         - contestant: Carter Krull
-          eliminated: false
+          eliminated: true
         - contestant: Ori Jean-Charles
           eliminated: true
 
@@ -68,5 +68,5 @@ params:
         - contestant: Angelica "Jelly" Loblack
           eliminated: false
         - contestant: Maggie Nestor
-          eliminated: false
+          eliminated: true
 ---
